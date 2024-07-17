@@ -21,10 +21,10 @@
             </div>
             <!-- links for others sections and pages -->
             <div class="navigations">
-                <a href="#">Home</a>
-                <a href="#">Cars</a>
-                <a href="#">About</a>
-                <a href="#">Contact</a>
+                <a href="index.html">Home</a>
+                <a href="#cars">Cars</a>
+                <a href="#services">About</a>
+                <a href="#contact">Contact</a>
             </div>
         </nav>
      </header>
@@ -81,7 +81,7 @@
                  </select></label>
                  
                 <!-- filtering button -->
-                 <button><i class='bx bxs-filter-alt'></i> Filtering</button>
+                 <button class="btn1"><i class='bx bxs-filter-alt'></i> Filtering</button>
             </div>
 
             <!-- introduce agency in video -->
@@ -94,5 +94,161 @@
             </div>
         </div>
     </section>
+
+    <!-- navigation by car types -->
+     <section class="car-selection">
+        <div class="car-selection-heading">
+            <h3>Find car by model</h3>
+            <div class="right-side">
+                <div class="list-classment" id="list-classment">1/2</div>
+                <div class="buttons">
+                    <button id="backbtn" onclick="backSlide()"><</button>
+                    <button id="nextbtn" onclick="nextSlide();">></button>
+                </div>
+            </div>
+        </div>
+        <div class="selection-container">
+            <div class="list1" id="list1">
+                <div class="item">
+                    <img src="img/Sedan-cars.png" alt="sedan">
+                    <h3>Sedan</h3>
+                    <p>15 vehicle</p>
+                </div>
+                <div class="item">
+                    <img src="img/SUV-cars.png" alt="SUV">
+                    <h3>SUV</h3>
+                    <p>27 vehicle</p>
+                </div>
+                <div class="item" >
+                    <img src="img/coupe-cars.png" alt="coupe">
+                    <h3>Coupe</h3>
+                    <p>13 vehicle</p>
+                </div>
+                <div class="item">
+                    <img src="img/Hatchback-cars.png" alt="hatchback">
+                    <h3>Hatchback</h3>
+                    <p>33 vehicle</p>
+                </div>
+            </div>
+            <div class="list2" id="list2">
+                <div class="item">
+                    <img src="img/sport-cars.png" alt="sedan">
+                    <h3>Sport</h3>
+                    <p>15 vehicle</p>
+                </div>
+                <div class="item">
+                    <img src="img/Luxury-cars.png" alt="SUV">
+                    <h3>Luxury</h3>
+                    <p>27 vehicle</p>
+                </div>
+                <div class="item">
+                    <img src="img/offroad cars.png" alt="coupe">
+                    <h3>Off-Road</h3>
+                    <p>13 vehicle</p>
+                </div>
+                <div class="item">
+                    <img src="img/vans.png" alt="hatchback">
+                    <h3>van</h3>
+                    <p>33 vehicle</p>
+                </div>
+            </div>
+        </div>
+     </section>
+     <!-- agency services section -->
+     <section class="services" id="services">
+        <h2>Why <span>Choose</span> Us</h2>
+        <p class="pContent">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestias quis quae earum labore repudiandae dolorum recusandae cumque?</p>
+        <div class="servicesContainer">
+            <div class="service">
+                <div class="icon"><svg width="64px" height="64px" viewBox="-7.68 -7.68 39.36 39.36" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="#ffffff" stroke-width="0.576"><g id="SVGRepo_bgCarrier" stroke-width="0"><rect x="-7.68" y="-7.68" width="39.36" height="39.36" rx="3.9360000000000004" fill="#0077ff" strokewidth="0"></rect></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M16.5562 12.9062L16.1007 13.359C16.1007 13.359 15.0181 14.4355 12.0631 11.4972C9.10812 8.55901 10.1907 7.48257 10.1907 7.48257L10.4775 7.19738C11.1841 6.49484 11.2507 5.36691 10.6342 4.54348L9.37326 2.85908C8.61028 1.83992 7.13596 1.70529 6.26145 2.57483L4.69185 4.13552C4.25823 4.56668 3.96765 5.12559 4.00289 5.74561C4.09304 7.33182 4.81071 10.7447 8.81536 14.7266C13.0621 18.9492 17.0468 19.117 18.6763 18.9651C19.1917 18.9171 19.6399 18.6546 20.0011 18.2954L21.4217 16.883C22.3806 15.9295 22.1102 14.2949 20.8833 13.628L18.9728 12.5894C18.1672 12.1515 17.1858 12.2801 16.5562 12.9062Z" fill="#ffffff"></path> </g></svg></div>
+                <div class="theService">
+                    <h3>24 Hour Support</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi quae quas iste tempore? Aperiam tempore iusto rerum quae, fuga excepturi!</p>
+                </div>
+            </div>
+            <div class="service">
+                <div class="icon"><svg version="1.1" id="Icons" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="-3.2 -3.2 38.40 38.40" xml:space="preserve" width="64px" height="64px" fill="#ffffff" stroke="#ffffff"><g id="SVGRepo_bgCarrier" stroke-width="0"><rect x="-3.2" y="-3.2" width="38.40" height="38.40" rx="3.84" fill="#0077ff" strokewidth="0"></rect></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <style type="text/css"> .st0{fill:none;stroke:#ffffff;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;} .st1{fill:none;stroke:#ffffff;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:3;} .st2{fill:none;stroke:#ffffff;stroke-width:2;stroke-linejoin:round;stroke-miterlimit:10;} .st3{fill:none;} </style> <path class="st0" d="M6.5,9.9L7,9.5c0.8-0.6,1.4-1.6,1.5-2.6l0.1-0.4c0.4-2.6,3.2-4.2,5.8-3.2l0,0c1.1,0.4,2.2,0.4,3.3,0l0,0 c2.5-1.1,5.4,0.5,5.8,3.2l0.1,0.4c0.1,1,0.7,2,1.5,2.6l0.5,0.4c2.1,1.6,2.1,4.6,0,6.2L25,16.5c-0.8,0.6-1.4,1.6-1.5,2.6l-0.1,0.4 c-0.4,2.6-3.2,4.2-5.8,3.2l0,0c-1.1-0.4-2.2-0.4-3.3,0l0,0c-2.5,1.1-5.4-0.5-5.8-3.2l-0.1-0.4c-0.1-1-0.7-2-1.5-2.6l-0.5-0.4 C4.5,14.5,4.5,11.5,6.5,9.9z"></path> <polyline class="st0" points="22,22 22,29 16,26 10,29 10,22 "></polyline> <line class="st0" x1="16" y1="9" x2="16" y2="10"></line> <line class="st0" x1="16" y1="16" x2="16" y2="17"></line> <path class="st0" d="M17,10h-1.5c-0.8,0-1.5,0.7-1.5,1.5v0c0,0.8,0.7,1.5,1.5,1.5h1c0.8,0,1.5,0.7,1.5,1.5v0c0,0.8-0.7,1.5-1.5,1.5 H15"></path> <rect x="-72" y="-360" class="st3" width="536" height="680"></rect> </g></svg></div>
+                <div class="theService">
+                    <h3>Best Price</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi quae quas iste tempore? Aperiam tempore iusto rerum quae, fuga excepturi!</p>
+                </div>
+            </div>
+            <div class="service">
+                <div class="icon"><svg width="64px" height="64px" viewBox="-5.6 -5.6 27.20 27.20" xmlns="http://www.w3.org/2000/svg" fill="#ffffff" stroke="#ffffff" stroke-width="0.00016" transform="matrix(1, 0, 0, 1, 0, 0)"><g id="SVGRepo_bgCarrier" stroke-width="0"><rect x="-5.6" y="-5.6" width="27.20" height="27.20" rx="2.72" fill="#0077ff" strokewidth="0"></rect></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path fill="#ffffff" d="M8,1 C8.55228,1 9,1.44769 9,2 C9,2.05821 9.04103,2.1082 9.09783,2.12092 C9.23039,2.15062 9.36095,2.18556 9.4893,2.22556 C9.54467,2.24281 9.60497,2.22009 9.63397,2.16986 C9.91013,1.69159 10.5217,1.52771 11,1.80383 C11.4783,2.07996 11.6422,2.69159 11.366,3.16986 C11.3366,3.22077 11.3472,3.2852 11.3904,3.32507 C11.489,3.41606 11.5839,3.51096 11.6749,3.60956 C11.7148,3.65275 11.7792,3.66335 11.8301,3.63397 C12.3084,3.35785 12.92,3.52173 13.1962,4 C13.4723,4.47827 13.3084,5.0899 12.8301,5.36603 C12.7799,5.39501 12.7572,5.4553 12.7744,5.51066 C12.8144,5.63902 12.8494,5.76962 12.8791,5.9022 C12.8918,5.95898 12.9418,6 13,6 C13.5523,6 14,6.44769 14,7 C14,7.55231 13.5523,8 13,8 C12.9418,8 12.8918,8.04102 12.8791,8.0978 C12.8712,8.13326 12.8629,8.16857 12.8542,8.20374 C12.8303,8.30006 12.8037,8.3953 12.7744,8.48934 C12.7572,8.5447 12.7799,8.60499 12.8301,8.63397 C13.3084,8.9101 13.4723,9.52173 13.1962,10 C12.92,10.4783 12.3084,10.6422 11.8301,10.366 L11.7795,10.3368 C11.7581,10.3244 11.7309,10.3289 11.7144,10.3472 C11.6991,10.3641 11.6964,10.3888 11.7078,10.4085 L14.07,14.5 L12.271,14.384 L11.4719,16 L9.11587,11.9192 C9.10244,11.8959 9.0755,11.8841 9.04923,11.8897 C9.02063,11.8958 9,11.921 9,11.9502 L9,12 C9,12.5523 8.55228,13 8,13 C7.44772,13 7,12.5523 7,12 L7,11.9502 C7,11.921 6.97937,11.8958 6.95077,11.8897 C6.9245,11.8841 6.89756,11.8959 6.88413,11.9192 L4.52807,16 L3.72903,14.384 L1.92999,14.5 L4.29222,10.4085 C4.30358,10.3888 4.30085,10.3641 4.28564,10.3472 C4.26908,10.3289 4.24195,10.3244 4.22053,10.3368 L4.16989,10.366 C3.69159,10.6422 3.08002,10.4783 2.80386,10 C2.52771,9.52173 2.69159,8.9101 3.16989,8.63397 C3.2201,8.60499 3.24282,8.54472 3.22557,8.48937 C3.18557,8.361 3.1506,8.23039 3.12089,8.0978 C3.10817,8.04102 3.05819,8 3,8 C2.44772,8 2,7.55231 2,7 C2,6.44769 2.44772,6 3,6 C3.05819,6 3.10817,5.95898 3.12089,5.9022 C3.1506,5.76961 3.18557,5.639 3.22557,5.51063 C3.24282,5.45528 3.2201,5.39501 3.16989,5.36603 C2.69159,5.0899 2.52771,4.47827 2.80386,4 C3.08002,3.52173 3.69159,3.35785 4.16989,3.63397 C4.22078,3.66335 4.28519,3.65276 4.32505,3.60958 C4.41608,3.51095 4.51103,3.41599 4.60965,3.32496 C4.65282,3.28512 4.66341,3.22073 4.63403,3.16986 C4.35791,2.69159 4.52176,2.08002 5.00006,1.80383 C5.47836,1.52771 6.08994,1.69159 6.36609,2.16986 C6.39507,2.22009 6.45536,2.24282 6.51072,2.22558 C6.63906,2.1856 6.76963,2.15064 6.90217,2.12093 C6.95897,2.1082 7,2.05821 7,2 C7,1.44769 7.44772,1 8,1 Z M8,4 C6.34314,4 5,5.34314 5,7 C5,8.65686 6.34314,10 8,10 C9.65686,10 11,8.65686 11,7 C11,5.34314 9.65686,4 8,4 Z M8,6 C8.55229,6 9,6.44772 9,7 C9,7.55228 8.55229,8 8,8 C7.44772,8 7,7.55228 7,7 C7,6.44772 7.44772,6 8,6 Z"></path> </g></svg></div>
+                <div class="theService">
+                    <h3>Verified License</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi quae quas iste tempore? Aperiam tempore iusto rerum quae, fuga excepturi!</p>
+                </div>
+            </div>
+            <div class="service">
+                <div class="icon"><svg fill="#ffffff" width="64px" height="64px" viewBox="-39.36 -39.36 174.72 174.72" xmlns="http://www.w3.org/2000/svg" stroke="#ffffff"><g id="SVGRepo_bgCarrier" stroke-width="0"><rect x="-39.36" y="-39.36" width="174.72" height="174.72" rx="17.472" fill="#0077ff" strokewidth="0"></rect></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <title></title> <g> <path d="M48,0A48,48,0,1,0,96,48,48.0512,48.0512,0,0,0,48,0Zm0,84A36,36,0,1,1,84,48,36.0393,36.0393,0,0,1,48,84Z"></path> <path d="M64.2422,31.7578a5.9979,5.9979,0,0,0-8.4844,0L48,39.5156l-7.7578-7.7578a5.9994,5.9994,0,0,0-8.4844,8.4844L39.5156,48l-7.7578,7.7578a5.9994,5.9994,0,1,0,8.4844,8.4844L48,56.4844l7.7578,7.7578a5.9994,5.9994,0,0,0,8.4844-8.4844L56.4844,48l7.7578-7.7578A5.9979,5.9979,0,0,0,64.2422,31.7578Z"></path> </g> </g></svg></div>
+                <div class="theService">
+                    <h3>Free Cancelation</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi quae quas iste tempore? Aperiam tempore iusto rerum quae, fuga excepturi!</p>
+                </div>
+            </div>
+        </div>
+     </section>
+     <!-- cars section -->
+     <section class="cars-section" id="cars">
+        <div class="cars-container">
+            <div class="products" id="productsData">
+                <div class="product">
+                    <h3 class="carName">Audi A1 2017</h3>
+                    <p class="carType">Hatchback</p>
+                    <img src="img/products/Audi A3 2017.png" alt="Audi a1">
+                    <div class="rent-info">
+                        <div class="capacity">
+                            <svg fill="#0077ff" width="64px" height="64px" viewBox="-8 -8 48.00 48.00" xmlns="http://www.w3.org/2000/svg" stroke="#0077ff"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"><path d="M16 15.503A5.041 5.041 0 1 0 16 5.42a5.041 5.041 0 0 0 0 10.083zm0 2.215c-6.703 0-11 3.699-11 5.5v3.363h22v-3.363c0-2.178-4.068-5.5-11-5.5z"></path></g></svg>
+                            <p>4</p>
+                        </div>
+                        <div class="gear">
+                            <svg fill="#000000" width="64px" height="64px" viewBox="-6.24 -6.24 36.48 36.48" id="car-gearshift" data-name="Flat Color" xmlns="http://www.w3.org/2000/svg" class="icon flat-color" stroke="#000000" stroke-width="0.00024000000000000003"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round" stroke="#CCCCCC" stroke-width="0.192"></g><g id="SVGRepo_iconCarrier"><rect id="primary" x="2" y="3" width="20" height="18" rx="2" style="fill: #026df7;"></rect><path id="secondary" d="M17,16a1,1,0,0,1-1-1V13H13v2a1,1,0,0,1-2,0V13H8v2a1,1,0,0,1-2,0V9A1,1,0,0,1,8,9v2h3V9a1,1,0,0,1,2,0v2h3V9a1,1,0,0,1,2,0v6A1,1,0,0,1,17,16Z" style="fill: #ffffff;"></path></g></svg>
+                            <p>Manual</p>
+                        </div>
+                        <div class="price">
+                            $130<span>/d</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="product">
+                    <h3 class="carName">Audi A1 2017</h3>
+                    <p class="carType">Hatchback</p>
+                    <img src="img/products/Audi A3 2017.png" alt="Audi a1">
+                    <div class="rent-info">
+                        <div class="capacity">
+                            <i></i> 4
+                        </div>
+                        <div class="gear">
+                            <i></i> Manual
+                        </div>
+                        <div class="price">
+                            $130<span>/d</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="product">
+                    <h3 class="carName">Audi A1 2017</h3>
+                    <p class="carType">Hatchback</p>
+                    <img src="img/products/Audi A3 2017.png" alt="Audi a1">
+                    <div class="rent-info">
+                        <div class="capacity">
+                            <i></i> 4
+                        </div>
+                        <div class="gear">
+                            <i></i> Manual
+                        </div>
+                        <div class="price">
+                            $130<span>/d</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+     </section>
+
+     <!-- scripts js -->
+      <script src="scripts/slider.js"></script>
+      <script src="scripts/DataCall.js"></script>
 </body>
 </html>

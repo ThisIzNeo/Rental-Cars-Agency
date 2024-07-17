@@ -1,0 +1,56 @@
+[
+    {
+        "id":1,
+        "productImg": "",
+        "name": "Mercedes C250 2015",
+        "type": "Sedan",
+        "gear": "Automatic",
+        "capacity":4,
+        "price":70
+    },
+    {
+        "id":2,
+        "productImg": "",
+        "name": "Audi A1 2017",
+        "type": "hatchback",
+        "gear": "Manual",
+        "capacity":4,
+        "price":120
+    },
+    {
+        "id":3,
+        "productImg": "",
+        "name": "Toyota Yaris 2019",
+        "type": "hatchback",
+        "gear": "Manual",
+        "capacity":4,
+        "price":30
+    },
+    {
+        "id":4,
+        "productImg": "",
+        "name": "Ford Mustang 2020",
+        "type": "Sport",
+        "gear": "Manual",
+        "capacity":130,
+        "price":230
+    },
+    {
+        "id":5,
+        "productImg": "",
+        "name": "Hyundai Tucson 2018",
+        "type": "SUV",
+        "gear": "Automatic",
+        "capacity":5,
+        "price":170
+    },
+    {
+        "id":6,
+        "productImg": "BMW M2 2021",
+        "name": "Coupe",
+        "type": "hatchback",
+        "gear": "Manual",
+        "capacity":2,
+        "price":160
+    }
+]
