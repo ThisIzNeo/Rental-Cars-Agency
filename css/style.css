@@ -347,3 +347,69 @@ span{
     background-color: transparent;
     color: #0077ff;
 }
+.seeAll{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    padding: 15px;
+    width: 200px;
+    margin-bottom: 30px;
+    background-color: #1f87ff;
+    border: #1f87ff 1px solid;
+    color: #fff;
+    font-weight: 500;
+    border-radius: 10px;
+}
+.seeAll:hover{
+    background-color: transparent;
+    color: #0077ff;
+}
+.contact-us {
+    width: 90%;
+    min-height: 40vh;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    background-color: #204977;
+    border-radius: 25px;
+    margin-bottom: 30px;
+}
+.container-contactus {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 30px;
+}
+.right img {
+    height: 400px;
+    padding: 0;
+}
+.left {
+    padding-left: 30px;
+}
+.left h2 {
+    color: #fff;
+    font-size: 3em;
+    width: 280px;
+}
+.left p {
+    color: #ffffffa6;
+    width: 400px;
+}
+.left button {
+    color: #0077ff;
+    font-weight: 500;
+    padding: 15px 20px;
+    background-color: #ffffff;
+    border: #fff 1px solid;
+    border-radius: 30px;
+    font-size: 1em;
+    text-transform: lowercase;
+    margin-top: 30px;
+}
+.left button:hover{
+    background-color: transparent;
+    color: #fff;
+}
