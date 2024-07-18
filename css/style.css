@@ -266,7 +266,6 @@ span{
     color: #0d0d0d;
 }
 .cars-container{
-    background-color: #0d4686;
     min-height: 80vh;
     width: 90%;
     margin: auto;
@@ -274,21 +273,22 @@ span{
 .products {
     display: grid;
     grid-template-columns: auto auto auto;
-    margin: auto;
     padding-bottom: 30px;
+    row-gap: 30px;
     padding-top: 30px;
-    gap: 50px;
 }
 .product img{
-    height: 100%;
+    height: 200px;
 }
 .product {
     display: flex;
-    margin: auto;
+    margin-left: auto;
+    margin-right: auto;
     flex-direction: column;
-    width: 350px;
-    height: 350px;
-    background-color: #777777;
+    width: 380px;
+    height: 380px;
+    background-color: #ffffff;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
     padding: 30px;
     padding-top: 10px;
     align-items: center;
@@ -296,14 +296,54 @@ span{
 }
 .rent-info{
     display: flex;
-    justify-content: space-between;
-}
-.capacity,
-.gear{
+    margin: auto;
     display: flex;
-}
-.rent-info svg{
-    height: 32px;
+    justify-content: space-between;
     align-items: center;
+    width: 100%;
+}
+.capacity {
+    display: flex;
+    margin: auto;
+    font-weight: 500;
+    font-size: 20px;
+    padding: 10px;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+}
+.capacity div {
+    margin-left: 10px;
+}
+.icon-inf{
+    background-color: #0077ff;
+    color: #fff;
+    height: 30px;
+    width: 30px;
     text-align: center;
+    border-radius: 50%;
+}
+.rent-option {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 10px;
+}
+.rent-option p {
+    color: #777777;
+}
+.rent-option b {
+    color: #000;
+}
+.rent-option button {
+    background-color: #0077ff;
+    color: #fff;
+    border: 1px solid #0077ff;
+    padding: 5px 15px;
+    border-radius: 5px;
+    font-weight: 500;
+    font-size: 18px;
+}
+.rent-option button:hover{
+    background-color: transparent;
+    color: #0077ff;
 }
