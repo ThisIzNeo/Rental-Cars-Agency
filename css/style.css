@@ -24,6 +24,53 @@ img{
     height: 32px;
 }
 
+.navigations button{
+    display: none;
+    background-color: transparent;
+    border: none;
+    font-size: 1.5em;
+    height: 100%;
+    margin: auto;
+}
+.humberger-menu{
+    display: none;
+    position: relative;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    position: absolute;
+    width: 50%;
+    height: 100%;
+    background-color: #ffffff;
+    top: 0;
+    right: 0;
+}
+.humberger-menu a{
+    position: relative;
+    top: 50px;
+    color: #0d0d0d;
+    font-weight: 500;
+    padding: 10px;
+    width: 100%;
+}
+.humberger-menu a:hover{
+    color: #fff;
+    background: #0077ff;
+}
+.humberger-menu button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: transparent;
+    border: none;
+    font-size: 3em;
+    position: absolute;
+    right: 0;
+    float: right;
+}
+.humberger-menu button:hover{
+    opacity: 0.7;
+}
 .navigations a {
     margin-right: 25px;
     color: #0d0d0d;
@@ -218,7 +265,7 @@ select:focus{
 .hidden {
     display: none;
 }
-.show-item {
+.show {
         display: flex;
 }
 
@@ -265,6 +312,7 @@ span{
 .theService h3 {
     color: #0d0d0d;
 }
+/* cars section css */
 .cars-container{
     min-height: 80vh;
     width: 90%;
@@ -285,8 +333,8 @@ span{
     margin-left: auto;
     margin-right: auto;
     flex-direction: column;
-    width: 380px;
-    height: 380px;
+    width: 350px;
+    height: 390px;
     background-color: #ffffff;
     box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
     padding: 30px;
@@ -306,9 +354,8 @@ span{
     display: flex;
     margin: auto;
     font-weight: 500;
-    font-size: 20px;
+    font-size: 18px;
     padding: 10px;
-    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
 }
 .capacity div {
     margin-left: 10px;
@@ -320,6 +367,12 @@ span{
     width: 30px;
     text-align: center;
     border-radius: 50%;
+}
+.icon-inf i {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
 }
 .rent-option {
     display: flex;
@@ -365,6 +418,57 @@ span{
     background-color: transparent;
     color: #0077ff;
 }
+/* about section css */
+.about-section{
+    height: 80vh;
+    width: 90%;
+    margin: auto;
+    margin-bottom: 20px;
+}
+.about-section h2{
+    text-align: center;
+    font-size: 2em;
+}
+.about-container{
+    display: flex;
+    flex-direction: row;
+}
+.location-map iframe{
+    margin-top: 30px;
+    margin-left: 50px;
+    height: 400px;
+    width: 400px;
+    border: 1px #0077ff solid;
+}
+.heading{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    margin-left: 50px;
+    margin-top: 60px;
+    font-size: 1.25em;
+}
+.about-description{
+    margin-left: 50px;
+    color: #777777;
+}
+.location,
+.phone,
+.email{
+    display: flex;
+    align-items: center;
+    margin-top: 40px;
+    margin-left: 50px;
+    font-size: 1.25em;
+}
+.location i,
+.phone i,
+.email i {
+    margin-right: 20px;
+    color: #0077ff;
+}
+
+/* contact us css */
 .contact-us {
     width: 90%;
     min-height: 40vh;
@@ -412,4 +516,41 @@ span{
 .left button:hover{
     background-color: transparent;
     color: #fff;
+}
+.form-contact{
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 900;
+    width: 100%;
+    height: 100%;
+    background: #00000081;
+}
+/* footer css */
+footer {
+    display: flex;
+    width: 100%;
+    background: #164377;
+    color: #fff;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+footer p {
+    margin-left: 50px;
+}
+.socialMedia{
+    font-size: 1.5em;
+    margin-right: 30px;
+}
+.socialMedia i{
+    margin-right: 15px;
+}
+.socialMedia a{
+    color: #fff;
+}
+.socialMedia i:hover{
+    opacity: 0.5;
 }
