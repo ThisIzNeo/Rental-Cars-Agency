@@ -1,7 +1,7 @@
 [
     {
         "id":1,
-        "productImg": "img/products/Mercedes 2015.png",
+        "productImg": "../img/products/Mercedes 2015.png",
         "name": "Mercedes C250 2015",
         "type": "Sedan",
         "gear": "Automatic",
@@ -31,8 +31,8 @@
         "productImg": "img/products/Ford Mustang 2020.png",
         "name": "Ford Mustang 2020",
         "type": "Sport",
-        "gear": "Manual",
-        "capacity":130,
+        "gear": "Automatic",
+        "capacity":2,
         "price":230
     },
     {
@@ -44,6 +44,7 @@
         "capacity":5,
         "price":170
     },
+    
     {
         "id":6,
         "productImg": "img/products/BMW M2 2022.png",
