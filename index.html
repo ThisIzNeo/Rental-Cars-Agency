@@ -358,16 +358,47 @@
             <div class="left">
                 <h2>Get In Touch With US</h2>
                 <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Impedit nisi animi minima modi facere optio illum velit perferendis voluptatem voluptas eligendi veritatis delectus natus quo, eveniet esse eaque quasi culpa?</p>
-                <button onclick="FormContact();">Contact Us</button>
+                <button onclick="FormContact();" id="contactUsBtn">Contact Us</button>
             </div>
             <div class="right">
                 <img src="img/Volkwagen-Contact.png" alt="">
             </div>
         </div>
       </section>
-        <div class="form-contact">
+        <div class="form-contact" id="form-contact">
             <div class="form-conatiner">
-                
+                <button onclick="closeForm()" id="closeForm"><i class='bx bx-x'></i></button>
+                <div class="from-info">
+                    <div class="formLocation">
+                        <i class='bx bx-current-location'></i>
+                        <p>Spain, Biota, Zaragoza</p>
+                        
+                    </div>
+                    <div class="formPhone">
+                        <i class='bx bxs-phone-call'></i>
+                        <p>+34 589 633 244</p>
+                    </div>
+                    <div class="formEmail">
+                        <i class='bx bxs-envelope' ></i>
+                        <p>rentalcars@exmple.co</p>
+                    </div>
+                </div>
+                <div class="form-inputs">
+                    <label for="Fullname" class="FullName">
+                        <input type="text" placeholder="First Name">
+                        <input type="text" placeholder="Last Name">
+                    </label>
+                    <label class="email-input" for="">
+                        <input type="email" name="" id="" placeholder="Email">
+                    </label>
+                    <label for="">
+                        <input type="text" name="" id="" placeholder="Phone">
+                    </label>
+                    <label for="">
+                        <textarea name="" id="" placeholder="Message" rows="8"></textarea>
+                    </label>
+                    <input class="submit" type="submit" value="Send Message">
+                </div>
             </div>
         </div>
       <!-- footer -->
