@@ -1,7 +1,7 @@
 [
     {
         "id":1,
-        "productImg": "",
+        "productImg": "img/products/Mercedes 2015.png",
         "name": "Mercedes C250 2015",
         "type": "Sedan",
         "gear": "Automatic",
@@ -10,7 +10,7 @@
     },
     {
         "id":2,
-        "productImg": "",
+        "productImg": "img/products/Audi A3 2017.png",
         "name": "Audi A1 2017",
         "type": "hatchback",
         "gear": "Manual",
@@ -19,7 +19,7 @@
     },
     {
         "id":3,
-        "productImg": "",
+        "productImg": "img/products/Toyota Yaris 2019.png",
         "name": "Toyota Yaris 2019",
         "type": "hatchback",
         "gear": "Manual",
@@ -28,7 +28,7 @@
     },
     {
         "id":4,
-        "productImg": "",
+        "productImg": "img/products/Ford Mustang 2020.png",
         "name": "Ford Mustang 2020",
         "type": "Sport",
         "gear": "Manual",
@@ -37,8 +37,8 @@
     },
     {
         "id":5,
-        "productImg": "",
-        "name": "Hyundai Tucson 2018",
+        "productImg": "img/products/hyundai2017.png",
+        "name": "Hyundai Tucson 2017",
         "type": "SUV",
         "gear": "Automatic",
         "capacity":5,
@@ -46,9 +46,9 @@
     },
     {
         "id":6,
-        "productImg": "BMW M2 2021",
-        "name": "Coupe",
-        "type": "hatchback",
+        "productImg": "img/products/BMW M2 2022.png",
+        "name": "BMW M2 2021",
+        "type": "Coupe",
         "gear": "Manual",
         "capacity":2,
         "price":160
