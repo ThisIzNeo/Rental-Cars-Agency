@@ -127,10 +127,10 @@ select:focus{
 }
 .btn1 {
     display: flex;
+    justify-content: center;
     align-items: center;
     padding: 10px;
     margin: auto;
-    margin-right: 10px;
     max-width: 100px;
     height: 40px;
     border-radius: 10px;
@@ -531,112 +531,8 @@ span{
     left: 0;
     z-index: 900;
     width: 100%;
-    height: 100vh;
-    background: #000000ec;
-}
-.fromShowen {
-    display: flex;
-}
-.form-conatiner{
-    display: flex;
-    position: relative;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 800px;
-    height: 600px;
-    background-color: #ffffff;
-    border-radius: 10px;
-}
-.form-conatiner button {
-    position: absolute;
-    top: 10px;
-    right: 10px;
-    font-size: 2em;
-    border: none;
-    background-color: transparent;
-}
-.form-conatiner .bx-x:hover {
-    color: #0077ff;
-}
-.from-info {
-    display: flex;
-    flex-direction: column;
-    width: 35%;
     height: 100%;
-    background: linear-gradient(180deg, #0077ff, #0d4686);
-    color: #fff;
-}
-.form-inputs {
-    display: flex;
-    flex-direction: column;
-    color: #0d0d0d;
-    margin: auto;
-    margin-top: 50px;
-}
-.formEmail,
-.formPhone,
-.formLocation{
-    display: flex;
-    align-items: center;
-    margin-top: 30px;
-    margin-left: auto;
-    margin-right: auto;
-    width: 90%;
-    height: 70px;
-    border-radius: 10px;
-    background-color: #ffffff13;
-    backdrop-filter: blur(30px);
-    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
-}
-.formEmail i,
-.formPhone i,
-.formLocation i {
-    margin-left: 20px;
-    margin-right: 20px;
-}
-.FullName{
-    display: flex;
-    flex-direction: row;
-}
-.FullName input{
-    display: flex;
-    flex-direction: row;
-    margin-right: 20px;
-}
-input{
-    border: none;
-    border-bottom: 1px solid #dbdbdb;
-    margin-top: 10px;
-    padding: 10px 0;
-}
-input::placeholder{
-    color: #b9b9b9;
-}
-input:focus{
-    outline: none;
-}
-textarea{
-    border: 1px solid #dbdbdb;
-    margin-top: 30px;
-    padding: 10px;
-}
-textarea::placeholder{
-    color: #b9b9b9;
-}
-textarea:focus{
-    outline: none;
-}
-.submit{
-    background-color: #0077ff;
-    color: #fff;
-    font-weight: 500;
-    margin: 30px 0 0 auto;
-    width: 100px;
-}
-.submit:hover {
-    background-color: #0454bd;
-    color: #fff;
+    background: #00000081;
 }
 /* footer css */
 footer {
@@ -816,17 +712,6 @@ footer p {
 
 @media (max-width: 820px) {
     /* navbar on ipads screens */
-    .FullName{
-        display: flex;
-        flex-direction: column;
-    }
-    .form-inputs {
-        width: 50%;
-    }
-    .form-conatiner{
-        width: 700px;
-    }
-
     .navigations a {
         font-size: 0.8em;
     }
@@ -1048,20 +933,6 @@ footer p {
     }
 }
 @media (max-width: 770px){
-    .FullName{
-        display: flex;
-        flex-direction: column;
-    }
-    .form-inputs {
-        height: auto;
-        width: 90%;
-    }
-    .form-conatiner{
-        width: 300px;
-    }
-    .from-info{
-        display: none;
-    }
     .introducing{
         height: auto;
     }
@@ -1072,20 +943,19 @@ footer p {
         line-height: 40px;
         margin-top: 0;
     }
+    .car-selection{
+        height: 40vh;
+    }
     .searchbar{
         display: flex;
         flex-direction: column;
         width: 70%;
         height: 250px;
         padding: 30px;
-        margin: auto;
         background: #fdfdfd;
         margin-left: 50px;
         border-radius: 10px;
         align-items: center;
-    }
-    .btn1{
-        margin: auto;
     }
     .agency-vid{
         margin: 0;
@@ -1111,7 +981,5 @@ footer p {
     .item img {
         height: 100px;
     }
-    .btn1{
-        margin: auto;
-    }
+
 }
